@@ -1,0 +1,349 @@
+Customer ID,Recency,Frequency,Monetary,Cluster,Age,Gender,City,Membership Type,Persona
+101,25,14,1120.2,1,29,Female,New York,Gold,Promising Newcomers
+102,18,11,780.5,1,34,Male,Los Angeles,Silver,Promising Newcomers
+103,42,9,510.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+104,12,19,1480.3,2,30,Male,San Francisco,Gold,Top-Tier Customers
+105,55,13,720.4,0,27,Male,Miami,Silver,High-Value Sleepers
+106,22,8,440.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+107,28,15,1150.6,1,31,Female,New York,Gold,Promising Newcomers
+108,14,12,800.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+109,40,10,495.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+110,9,21,1520.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+111,34,11,690.3,0,32,Male,Miami,Silver,High-Value Sleepers
+112,20,7,470.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+113,21,16,1200.8,1,30,Female,New York,Gold,Promising Newcomers
+114,15,13,820.75,1,33,Male,Los Angeles,Silver,Promising Newcomers
+115,38,9,530.4,0,42,Female,Chicago,Bronze,High-Value Sleepers
+116,11,18,1360.2,2,29,Male,San Francisco,Gold,Top-Tier Customers
+117,48,12,700.6,0,26,Male,Miami,Silver,High-Value Sleepers
+118,25,8,450.9,0,38,Female,Houston,Bronze,High-Value Sleepers
+119,29,14,1170.3,1,32,Female,New York,Gold,Promising Newcomers
+120,16,11,790.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+121,41,10,505.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+122,13,20,1470.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+123,54,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+124,23,7,430.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+125,27,15,1140.6,1,31,Female,New York,Gold,Promising Newcomers
+126,13,12,810.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+127,39,9,485.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+128,10,21,1500.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+129,33,10,670.3,0,32,Male,Miami,Silver,High-Value Sleepers
+130,19,8,460.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+131,20,16,1190.8,1,30,Female,New York,Gold,Promising Newcomers
+132,14,13,830.75,1,33,Male,Los Angeles,Silver,Promising Newcomers
+133,37,9,520.4,0,42,Female,Chicago,Bronze,High-Value Sleepers
+134,10,18,1370.2,2,29,Male,San Francisco,Gold,Top-Tier Customers
+135,47,12,690.6,0,26,Male,Miami,Silver,High-Value Sleepers
+136,24,8,440.9,0,38,Female,Houston,Bronze,High-Value Sleepers
+137,22,14,1160.3,1,32,Female,New York,Gold,Promising Newcomers
+138,17,11,800.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+139,40,10,500.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+140,12,20,1460.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+141,53,13,700.4,0,27,Male,Miami,Silver,High-Value Sleepers
+142,21,7,420.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+143,26,15,1130.6,1,31,Female,New York,Gold,Promising Newcomers
+144,12,12,820.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+145,38,9,480.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+146,9,21,1490.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+147,32,10,680.3,0,32,Male,Miami,Silver,High-Value Sleepers
+148,18,8,470.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+149,19,16,1180.8,1,30,Female,New York,Gold,Promising Newcomers
+150,15,11,790.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+151,39,10,505.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+152,13,20,1470.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+153,54,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+154,23,7,430.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+155,27,15,1140.6,1,31,Female,New York,Gold,Promising Newcomers
+156,13,12,810.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+157,39,9,485.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+158,10,21,1500.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+159,33,10,670.3,0,32,Male,Miami,Silver,High-Value Sleepers
+160,19,8,460.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+161,20,16,1190.8,1,30,Female,New York,Gold,Promising Newcomers
+162,14,13,830.75,1,33,Male,Los Angeles,Silver,Promising Newcomers
+163,37,9,520.4,0,42,Female,Chicago,Bronze,High-Value Sleepers
+164,10,18,1370.2,2,29,Male,San Francisco,Gold,Top-Tier Customers
+165,47,12,690.6,0,26,Male,Miami,Silver,High-Value Sleepers
+166,24,8,440.9,0,38,Female,Houston,Bronze,High-Value Sleepers
+167,22,14,1160.3,1,32,Female,New York,Gold,Promising Newcomers
+168,17,11,800.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+169,40,10,500.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+170,12,20,1460.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+171,53,13,700.4,0,27,Male,Miami,Silver,High-Value Sleepers
+173,26,15,1130.6,1,31,Female,New York,Gold,Promising Newcomers
+174,12,12,820.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+175,38,9,480.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+176,9,21,1490.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+177,32,10,680.3,0,32,Male,Miami,Silver,High-Value Sleepers
+178,18,8,470.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+179,19,16,1180.8,1,30,Female,New York,Gold,Promising Newcomers
+180,15,11,790.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+181,39,10,505.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+182,13,20,1470.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+183,54,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+184,23,7,430.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+185,27,15,1140.6,1,31,Female,New York,Gold,Promising Newcomers
+186,13,12,810.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+187,39,9,485.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+188,10,21,1500.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+189,33,10,670.3,0,32,Male,Miami,Silver,High-Value Sleepers
+190,19,8,460.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+191,20,16,1190.8,1,30,Female,New York,Gold,Promising Newcomers
+192,14,13,830.75,1,33,Male,Los Angeles,Silver,Promising Newcomers
+193,37,9,520.4,0,42,Female,Chicago,Bronze,High-Value Sleepers
+194,10,18,1370.2,2,29,Male,San Francisco,Gold,Top-Tier Customers
+195,47,12,690.6,0,26,Male,Miami,Silver,High-Value Sleepers
+196,24,8,440.9,0,38,Female,Houston,Bronze,High-Value Sleepers
+197,22,14,1160.3,1,32,Female,New York,Gold,Promising Newcomers
+198,17,11,800.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+199,40,10,500.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+200,12,20,1460.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+201,53,13,700.4,0,27,Male,Miami,Silver,High-Value Sleepers
+202,21,7,420.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+203,26,15,1130.6,1,31,Female,New York,Gold,Promising Newcomers
+204,12,12,820.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+205,38,9,480.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+206,9,21,1490.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+207,32,10,680.3,0,32,Male,Miami,Silver,High-Value Sleepers
+208,18,8,470.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+209,19,16,1180.8,1,30,Female,New York,Gold,Promising Newcomers
+210,15,11,790.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+211,39,10,505.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+212,13,20,1470.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+213,54,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+214,23,7,430.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+215,27,15,1140.6,1,31,Female,New York,Gold,Promising Newcomers
+216,13,12,810.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+217,39,9,485.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+218,10,21,1500.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+219,33,10,670.3,0,32,Male,Miami,Silver,High-Value Sleepers
+220,19,8,460.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+221,20,16,1190.8,1,30,Female,New York,Gold,Promising Newcomers
+222,14,13,830.75,1,33,Male,Los Angeles,Silver,Promising Newcomers
+223,37,9,520.4,0,42,Female,Chicago,Bronze,High-Value Sleepers
+224,10,18,1370.2,2,29,Male,San Francisco,Gold,Top-Tier Customers
+225,47,12,690.6,0,26,Male,Miami,Silver,High-Value Sleepers
+226,24,8,440.9,0,38,Female,Houston,Bronze,High-Value Sleepers
+227,22,14,1160.3,1,32,Female,New York,Gold,Promising Newcomers
+228,17,11,800.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+229,40,10,500.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+230,12,20,1460.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+231,53,13,700.4,0,27,Male,Miami,Silver,High-Value Sleepers
+232,21,7,420.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+233,26,15,1130.6,1,31,Female,New York,Gold,Promising Newcomers
+234,12,12,820.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+235,38,9,480.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+236,9,21,1490.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+237,32,10,680.3,0,32,Male,Miami,Silver,High-Value Sleepers
+238,18,8,470.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+239,19,16,1180.8,1,30,Female,New York,Gold,Promising Newcomers
+240,15,11,790.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+241,39,10,505.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+242,13,20,1470.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+243,54,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+245,26,15,1130.6,1,31,Female,New York,Gold,Promising Newcomers
+246,12,12,820.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+247,38,9,480.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+248,9,21,1490.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+249,32,10,680.3,0,32,Male,Miami,Silver,High-Value Sleepers
+250,18,8,470.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+251,19,16,1180.8,1,30,Female,New York,Gold,Promising Newcomers
+252,15,11,790.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+253,39,10,505.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+254,13,20,1470.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+255,54,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+256,23,7,430.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+257,27,15,1140.6,1,31,Female,New York,Gold,Promising Newcomers
+258,13,12,810.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+259,39,9,485.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+260,10,21,1500.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+261,33,10,670.3,0,32,Male,Miami,Silver,High-Value Sleepers
+262,19,8,460.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+263,20,16,1190.8,1,30,Female,New York,Gold,Promising Newcomers
+264,14,13,830.75,1,33,Male,Los Angeles,Silver,Promising Newcomers
+265,37,9,520.4,0,42,Female,Chicago,Bronze,High-Value Sleepers
+266,10,18,1370.2,2,29,Male,San Francisco,Gold,Top-Tier Customers
+267,47,12,690.6,0,26,Male,Miami,Silver,High-Value Sleepers
+268,24,8,440.9,0,38,Female,Houston,Bronze,High-Value Sleepers
+269,22,14,1160.3,1,32,Female,New York,Gold,Promising Newcomers
+270,17,11,800.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+271,40,10,500.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+272,12,20,1460.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+273,53,13,700.4,0,27,Male,Miami,Silver,High-Value Sleepers
+274,23,7,430.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+275,27,15,1140.6,1,31,Female,New York,Gold,Promising Newcomers
+276,12,12,820.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+277,38,9,480.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+278,9,21,1490.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+279,32,10,680.3,0,32,Male,Miami,Silver,High-Value Sleepers
+280,18,8,470.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+281,19,16,1180.8,1,30,Female,New York,Gold,Promising Newcomers
+282,15,11,790.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+283,39,10,505.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+284,13,20,1470.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+285,54,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+286,23,7,430.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+287,26,15,1130.6,1,31,Female,New York,Gold,Promising Newcomers
+288,13,12,820.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+289,39,9,485.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+290,10,21,1500.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+291,33,10,670.3,0,32,Male,Miami,Silver,High-Value Sleepers
+292,19,8,460.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+293,20,16,1190.8,1,30,Female,New York,Gold,Promising Newcomers
+294,14,13,830.75,1,33,Male,Los Angeles,Silver,Promising Newcomers
+295,37,9,520.4,0,42,Female,Chicago,Bronze,High-Value Sleepers
+296,10,18,1370.2,2,29,Male,San Francisco,Gold,Top-Tier Customers
+297,47,12,690.6,0,26,Male,Miami,Silver,High-Value Sleepers
+298,24,8,440.9,0,38,Female,Houston,Bronze,High-Value Sleepers
+299,22,14,1160.3,1,32,Female,New York,Gold,Promising Newcomers
+300,17,11,800.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+301,11,19,1420.8,2,36,Male,San Francisco,Gold,Top-Tier Customers
+302,50,14,730.4,0,29,Female,Miami,Silver,High-Value Sleepers
+303,21,7,450.6,0,35,Female,Houston,Bronze,High-Value Sleepers
+304,18,17,1210.6,1,31,Male,New York,Gold,Promising Newcomers
+305,16,11,780.9,1,27,Male,Los Angeles,Silver,Promising Newcomers
+306,35,10,495.25,0,42,Female,Chicago,Bronze,High-Value Sleepers
+307,9,18,1390.2,2,29,Male,San Francisco,Gold,Top-Tier Customers
+308,46,12,670.6,0,26,Male,Miami,Silver,High-Value Sleepers
+309,25,8,460.9,0,38,Female,Houston,Bronze,High-Value Sleepers
+310,21,14,1170.3,1,32,Female,New York,Gold,Promising Newcomers
+311,14,11,810.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+312,38,9,515.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+313,12,20,1450.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+314,52,13,690.4,0,27,Male,Miami,Silver,High-Value Sleepers
+315,24,7,420.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+316,26,15,1130.6,1,31,Female,New York,Gold,Promising Newcomers
+317,13,12,820.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+318,39,9,480.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+319,9,21,1490.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+320,32,10,680.3,0,32,Male,Miami,Silver,High-Value Sleepers
+321,18,8,470.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+322,19,16,1180.8,1,30,Female,New York,Gold,Promising Newcomers
+323,15,11,790.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+324,39,10,505.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+325,13,20,1470.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+326,54,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+327,23,7,430.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+328,27,15,1140.6,1,31,Female,New York,Gold,Promising Newcomers
+329,13,12,820.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+330,39,9,485.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+331,10,21,1500.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+332,33,10,670.3,0,32,Male,Miami,Silver,High-Value Sleepers
+333,19,8,460.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+334,20,16,1190.8,1,30,Female,New York,Gold,Promising Newcomers
+335,14,13,830.75,1,33,Male,Los Angeles,Silver,Promising Newcomers
+336,37,9,520.4,0,42,Female,Chicago,Bronze,High-Value Sleepers
+337,10,18,1370.2,2,29,Male,San Francisco,Gold,Top-Tier Customers
+338,47,12,690.6,0,26,Male,Miami,Silver,High-Value Sleepers
+339,24,8,440.9,0,38,Female,Houston,Bronze,High-Value Sleepers
+340,22,14,1160.3,1,32,Female,New York,Gold,Promising Newcomers
+341,17,11,800.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+342,40,9,525.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+343,11,20,1460.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+344,55,13,720.4,0,27,Male,Miami,Silver,High-Value Sleepers
+345,25,7,440.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+346,28,15,1150.6,1,31,Female,New York,Gold,Promising Newcomers
+347,14,12,830.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+348,40,9,490.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+349,10,21,1480.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+350,34,10,690.3,0,32,Male,Miami,Silver,High-Value Sleepers
+351,20,8,480.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+352,21,16,1170.8,1,30,Female,New York,Gold,Promising Newcomers
+353,15,11,790.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+354,41,10,510.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+355,12,19,1440.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+356,56,13,700.4,0,27,Male,Miami,Silver,High-Value Sleepers
+357,26,7,410.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+358,29,15,1160.6,1,31,Female,New York,Gold,Promising Newcomers
+359,14,12,810.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+360,41,9,495.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+361,10,21,1490.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+362,35,10,660.3,0,32,Male,Miami,Silver,High-Value Sleepers
+363,21,8,430.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+364,22,16,1200.8,1,30,Female,New York,Gold,Promising Newcomers
+365,16,11,780.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+366,42,10,505.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+367,13,20,1460.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+368,57,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+369,24,7,450.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+370,30,15,1140.6,1,31,Female,New York,Gold,Promising Newcomers
+371,17,12,800.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+372,42,9,475.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+373,11,21,1480.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+374,36,10,660.3,0,32,Male,Miami,Silver,High-Value Sleepers
+375,22,8,470.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+376,23,16,1190.8,1,30,Female,New York,Gold,Promising Newcomers
+377,18,11,770.2,1,33,Male,Los Angeles,Silver,Promising Newcomers
+378,43,10,515.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+379,12,19,1450.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+380,58,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+381,27,7,430.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+382,31,15,1160.6,1,31,Female,New York,Gold,Promising Newcomers
+383,15,12,820.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+384,43,9,495.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+385,10,21,1490.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+386,37,10,660.3,0,32,Male,Miami,Silver,High-Value Sleepers
+387,23,8,440.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+388,24,16,1200.8,1,30,Female,New York,Gold,Promising Newcomers
+389,16,11,780.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+390,44,10,505.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+391,13,20,1460.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+392,59,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+393,28,7,450.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+394,32,15,1140.6,1,31,Female,New York,Gold,Promising Newcomers
+395,17,12,800.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+396,44,9,475.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+397,12,21,1480.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+398,38,10,660.3,0,32,Male,Miami,Silver,High-Value Sleepers
+399,22,8,470.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+400,25,16,1190.8,1,30,Female,New York,Gold,Promising Newcomers
+401,18,11,800.2,1,33,Male,Los Angeles,Silver,Promising Newcomers
+402,45,10,515.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+403,13,19,1450.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+404,60,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+405,29,7,430.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+406,33,15,1160.6,1,31,Female,New York,Gold,Promising Newcomers
+407,16,12,820.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+408,45,9,495.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+409,11,21,1490.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+410,39,10,660.3,0,32,Male,Miami,Silver,High-Value Sleepers
+411,24,8,440.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+412,25,16,1200.8,1,30,Female,New York,Gold,Promising Newcomers
+413,17,11,780.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+414,46,10,505.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+415,14,20,1460.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+416,61,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+417,30,7,450.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+418,34,15,1140.6,1,31,Female,New York,Gold,Promising Newcomers
+419,19,12,800.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+420,46,9,475.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+421,12,21,1480.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+422,40,10,660.3,0,32,Male,Miami,Silver,High-Value Sleepers
+423,26,8,470.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+424,27,16,1190.8,1,30,Female,New York,Gold,Promising Newcomers
+425,18,11,780.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+426,47,10,515.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+427,14,19,1450.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+428,62,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+429,31,7,430.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+430,35,15,1160.6,1,31,Female,New York,Gold,Promising Newcomers
+431,20,12,820.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+432,47,9,495.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+433,11,21,1490.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+434,41,10,660.3,0,32,Male,Miami,Silver,High-Value Sleepers
+435,28,8,440.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+436,28,16,1200.8,1,30,Female,New York,Gold,Promising Newcomers
+437,19,11,780.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+438,48,10,505.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
+439,15,20,1460.5,2,30,Male,San Francisco,Gold,Top-Tier Customers
+440,63,13,710.4,0,27,Male,Miami,Silver,High-Value Sleepers
+441,32,7,450.8,0,37,Female,Houston,Bronze,High-Value Sleepers
+442,36,15,1140.6,1,31,Female,New York,Gold,Promising Newcomers
+443,20,12,800.9,1,35,Male,Los Angeles,Silver,Promising Newcomers
+444,48,9,475.25,0,41,Female,Chicago,Bronze,High-Value Sleepers
+445,13,21,1480.1,2,28,Male,San Francisco,Gold,Top-Tier Customers
+446,42,10,660.3,0,32,Male,Miami,Silver,High-Value Sleepers
+447,27,8,470.5,0,36,Female,Houston,Bronze,High-Value Sleepers
+448,28,16,1190.8,1,30,Female,New York,Gold,Promising Newcomers
+449,21,11,780.2,1,34,Male,Los Angeles,Silver,Promising Newcomers
+450,49,10,515.75,0,43,Female,Chicago,Bronze,High-Value Sleepers
