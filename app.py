@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import plotly.express as px  # <-- Added for the 3D Visualization
 import joblib
 import sqlite3
 
@@ -10,7 +11,7 @@ st.set_page_config(page_title="Customer Segmentation", layout="wide")
 # 2. Secure Data & Model Loading
 @st.cache_data
 def load_data():
-    # Connect to the local SQLite database instead of a CSV
+    # Connect to the local SQLite database
     conn = sqlite3.connect("customers.db")
     query = "SELECT * FROM customer_segments"
     df = pd.read_sql_query(query, conn)
@@ -30,9 +31,36 @@ except Exception as e:
     st.error(f"Error loading backend systems: {e}. Please ensure customers.db and persona_model.pkl are in the repository.")
     st.stop()
 
-# 3. Sidebar Navigation
+# ---------------------------------------------------------
+# 3. SIDEBAR NAVIGATION & LIVE SEARCH
+# ---------------------------------------------------------
 st.sidebar.title("Navigation")
 app_mode = st.sidebar.radio("Choose a Module", ["📊 Segmentation Dashboard", "🔮 Predict New Customer"])
+
+st.sidebar.markdown("---")
+st.sidebar.header("🔍 Individual Customer Lookup")
+
+# Create a number input for IDs
+search_id = st.sidebar.number_input("Enter Customer ID", min_value=101, max_value=450, step=1)
+
+if st.sidebar.button("Fetch Live Data"):
+    # Connect to your live database
+    conn = sqlite3.connect("customers.db")
+    
+    # Professional SQL query with a filter
+    query = f"SELECT * FROM customer_segments WHERE [Customer ID] = {search_id}"
+    customer_profile = pd.read_sql_query(query, conn)
+    conn.close()
+    
+    if not customer_profile.empty:
+        st.sidebar.success(f"### Profile Found!")
+        st.sidebar.dataframe(customer_profile[['Age', 'Gender', 'City', 'Membership Type']].transpose())
+        
+        # Pull the persona for this specific customer
+        persona = customer_profile['Persona'].values[0]
+        st.sidebar.info(f"**Segment:** {persona}")
+    else:
+        st.sidebar.error("Customer ID not found in database.")
 
 # ---------------------------------------------------------
 # MODULE 1: DESCRIPTIVE ANALYTICS (DASHBOARD)
@@ -42,8 +70,7 @@ if app_mode == "📊 Segmentation Dashboard":
     st.write("Explore the behavioral segments of our historical customer database.")
     
     # Interactive Filtering
-    st.sidebar.header("Filter Options")
-    selected_persona = st.sidebar.selectbox(
+    selected_persona = st.selectbox(
         "Select a Customer Persona to explore:", 
         df['Persona'].unique()
     )
@@ -57,29 +84,25 @@ if app_mode == "📊 Segmentation Dashboard":
     col2.metric("Average Spend", f"${filtered_df['Monetary'].mean():.2f}")
     col3.metric("Average Recency", f"{filtered_df['Recency'].mean():.0f} days")
     
-    # Data Table
-    st.write("### Database Records")
-    st.dataframe(filtered_df)
+    st.markdown("---")
     
-    # Visualization
-    st.write("### Spend vs. Recency Analysis")
-    fig, ax = plt.subplots(figsize=(10, 5))
-    ax.scatter(filtered_df['Recency'], filtered_df['Monetary'], alpha=0.6, color='teal')
-    ax.set_xlabel("Recency (Days Since Last Purchase)")
-    ax.set_ylabel("Monetary (Total Spend in $)")
-    ax.set_title(f"Purchasing Behavior Profile: {selected_persona}")
+    # 3D Interactive Cluster Map
+    st.write("### 🌐 Mathematical Cluster Separation (3D View)")
+    st.write("This 3D model illustrates how the K-Means algorithm partitions customers based on the RFM framework. Rotate to explore.")
     
-    # Dark theme styling for the chart to match Streamlit's dark mode
-    fig.patch.set_facecolor('none')
-    ax.set_facecolor('none')
-    ax.xaxis.label.set_color('white')
-    ax.yaxis.label.set_color('white')
-    ax.title.set_color('white')
-    ax.tick_params(colors='white')
-    for spine in ax.spines.values():
-        spine.set_edgecolor('white')
-        
-    st.pyplot(fig)
+    fig_3d = px.scatter_3d(
+        df, x='Recency', y='Frequency', z='Monetary',
+        color='Persona', 
+        labels={'Recency': 'Days Since Last Purchase', 'Frequency': 'Total Items', 'Monetary': 'Total Spend ($)'},
+        opacity=0.8,
+        color_discrete_map={
+            "Top-Tier Customers": "#00CC96",      # Vibrant Green
+            "Promising Newcomers": "#636EFA",     # Vibrant Blue
+            "High-Value Sleepers": "#EF553B"      # Vibrant Red
+        }
+    )
+    fig_3d.update_layout(margin=dict(l=0, r=0, b=0, t=0), paper_bgcolor="rgba(0,0,0,0)")
+    st.plotly_chart(fig_3d, use_container_width=True)
 
 # ---------------------------------------------------------
 # MODULE 2: PREDICTIVE ANALYTICS (MACHINE LEARNING)
@@ -103,7 +126,7 @@ elif app_mode == "🔮 Predict New Customer":
     
     # Prediction Engine
     if st.button("Predict Persona Segment", type="primary"):
-        # Format the input exactly how the model expects it (matching the training features)
+        # Format the input exactly how the model expects it
         input_data = pd.DataFrame([[recency, frequency, monetary, age]], 
                                   columns=['Recency', 'Frequency', 'Monetary', 'Age'])
         
@@ -113,10 +136,10 @@ elif app_mode == "🔮 Predict New Customer":
         # Display Results
         st.success(f"### 🤖 Prediction: **{prediction}**")
         
-        # Add a little business logic context for the presentation
+        # Actionable Business Logic (Strategy Cards)
         if prediction == "High-Value Sleepers":
-            st.warning("💡 **Action Item:** Trigger win-back email campaign with a high-value discount.")
+            st.error("💡 **Action Item: WIN-BACK** \n\nTrigger automated email campaign with a high-value discount coupon. Immediate intervention required to prevent churn.")
         elif prediction == "Promising Newcomers":
-            st.info("💡 **Action Item:** Enroll in loyalty onboarding program to increase frequency.")
+            st.info("💡 **Action Item: UPSELL** \n\nEnroll in loyalty onboarding program. Offer personalized bundles to increase their purchasing frequency.")
         elif prediction == "Top-Tier Customers":
-            st.success("💡 **Action Item:** Send VIP early-access invites to retain loyalty.")
+            st.success("💡 **Action Item: RETAIN** \n\nSend VIP early-access invites to new product lines. Reward loyalty to maintain high engagement.")
